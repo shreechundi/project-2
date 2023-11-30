@@ -1,2 +1,4 @@
-link to household object data: 
+Link to household object data: 
 https://drive.google.com/drive/folders/1Jk8pEh99Yci6Qex1dRAt9oZ9Tu36g7rh?usp=sharing
+
+This data contains training and testing data of ordinary household items. We will be using this dataset to do object detection. 
