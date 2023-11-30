@@ -7,10 +7,10 @@ This project contains data from CalTech dataset utilizing objects to train/test 
  
 ## SRC 
 ### Installing/Building Code
-To build this code, we imported numpy and tensorflow, specifically mobilenet_v2 in tensorflow. We created a function where we use process the image and then use tensorflow's pretrained model to detect objects in the images from our dataset. 
+To build this code, we imported numpy and tensorflow, specifically mobilenet_v2 in tensorflow. We created a function where we process the image and then use tensorflow's pretrained model to detect objects in the images from our dataset. 
 
 ### Usage 
-We then passed in each image into the model and the model would output the top three objects detected along with its confidence level for each prediction. We used the object identification code in Tensorflow to apply a pre-trained model that we found online, to our dataset. Mobilenettv2 within Tensorflow is a pre-trained network that is able to classify images into 1000 predetermined categories. With our dataset, for example, an JPG image of a toilet was presented to the model, and the model’s output would give us a couple of ideas of what it could be. It would say, for example, toilet, trash can, and bucket in a row. 
+We passed in each image into the model and the model would output the top three objects detected along with its confidence level for each prediction. We used the object identification code in Tensorflow to apply a pre-trained model that we found online, to our dataset. Mobilenettv2 within Tensorflow is a pre-trained network that is able to classify images into 1000 predetermined categories. With our dataset, for example, an JPG image of a toilet was presented to the model, and the model’s output would give us a couple of ideas of what it could be. It would say, for example, toilet, trash can, and bucket in a row. 
 
 ## Data Dictionary
 | Figure Name| Description| Summary|                   
@@ -23,8 +23,7 @@ We then passed in each image into the model and the model would output the top t
 |Image Name | Image of household object.|JPG Image file.|
 
 ## References 
-Mobilenetv2: https://www.tensorflow.org/api_docs/python/tf/keras/applications/m
-obilenet_v2/MobileNetV2
+Mobilenetv2: https://www.tensorflow.org/api_docs/python/tf/keras/applications/mobilenet_v2/MobileNetV2
 
 Tensorflow: https://www.tensorflow.org/hub/tutorials/object_detection
 
