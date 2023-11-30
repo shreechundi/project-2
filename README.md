@@ -20,7 +20,11 @@ We passed in each image into the model and the model would output the top three 
 ## Figures
 | Figure Name| Description| Summary|                   
 |-------|------------|-------------------|
-|Figure1 | descibe it |summarize takeaways.|
+|figure_1| An image of a soy sauce bottle passed into the model and the model outputting “bottlecap (0.09).” |The main takeaway from this figure is that the model is able to gauge when to use low confidence levels.|
+|figure_2| An image of a bath towel being passed into the model and the model outputting “bath_towel(0.72).” | The main takeaway from this figure is that the model is able to gauge when to use a higher confidence level.|
+|figure_3|An image of a piece of a loaf of bread being passed into the model and the model outputting “French_loaf (0.40).” |The main takeaway from this figure is that the model is able to accurately identify images that are included in its pretrained network.|
+|figure_4| An image of various objects being passed into the model and the model outputting “parking_meter(0.16).”|The main takeaway from this figure is that the model is unable to identify random and unrelated objects.|
+|figure_5| An image of some objects that resemble rabbit ears being passed into the model and the model outputting “wood_rabbit(0.58)” and “hare(0.17)”. |The main takeaway from this figure is that there is clear evidence of accurate pattern recognition if not object. Inaccurately categorized items were often close to what item should have been categorized as or followed an accurate line of reasoning.|
 
 ## References 
 Mobilenetv2: https://www.tensorflow.org/api_docs/python/tf/keras/applications/mobilenet_v2/MobileNetV2
